@@ -1,0 +1,16 @@
+{
+  "name": "no-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "jest --collectCoverage --forceExit --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^25.1.0"
+  }
+}

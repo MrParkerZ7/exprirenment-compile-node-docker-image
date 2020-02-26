@@ -1,0 +1,27 @@
+{
+  "name": "much-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "jest --collectCoverage --forceExit --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1",
+    "aws-sdk": "^2.619.0",
+    "config": "^3.2.5",
+    "crypto": "^1.0.1",
+    "date-and-time": "^0.12.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "fs": "0.0.1-security",
+    "line-reader": "^0.4.0",
+    "pg": "^7.18.1",
+    "promise": "^8.0.3",
+    "sequelize": "^5.21.4",
+    "sqlite": "^3.0.3"
+  }
+}
